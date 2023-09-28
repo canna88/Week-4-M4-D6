@@ -1,0 +1,89 @@
+/* Importiamo i font da Google Fonts e le icone di Bootstrap */
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Merriweather:wght@300&family=Montserrat:wght@200&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,400;1,500&family=Raleway:wght@600&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+/* Reset globale e impostazioni di base del font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Stile dell'intestazione principale */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0 60px 0;
+}
+
+/* Stile dell'input di ricerca */
+#search-input {
+  width: 60%;
+  max-width: 400px;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 0 0 6px rgb(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Stile del pulsante di ricarica */
+.custom-select {
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #138065;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 0 6px rgb(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+
+/* Stile del modulo di ricerca */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+
+/* Stile del contenitore dei risultati di ricerca */
+.search-results {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.user-div {
+  width: 25%;
+  height: auto;
+  color: black;
+  padding: 20px;
+}
+
+.card {
+  height: 400px;
+}
+
+.list-group-item {
+  font-weight: bold;
+}
+
+.list-group-item span {
+  font-weight: lighter;
+}
